@@ -1,0 +1,109 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+    background: #f9f9f9;
+}
+
+header {
+    background: url("https://www.bypeople.com/wp-content/uploads/2015/07/svg-low-poly-background-css-js-snippet.jpg") center center no-repeat;
+    background-size: cover;
+    padding: 135px 20px 90px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+header > h1 {
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+}
+
+header > h3 {
+    font-size: 18px;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+header > p {
+    font-size: 12px;
+}
+
+.subscribe {
+    background: rgba(0, 0, 0, 0.65);
+    display: table;
+    padding: 10px;
+    margin: 0 auto 10px auto;
+    border-radius: 5px;
+}
+
+.subscribe input[type = 'submit'] {
+    background: #ae2c52;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 10px 35px;
+    cursor: pointer;
+}
+
+.subscribe input {
+    float: left;
+}
+
+.subscribe input[type = 'text'], .subscribe input[type = 'email'] {
+    border: 0;
+    width: 320px;
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 12px 20px 14px 20px;
+    box-sizing: border-box;
+}
+
+article {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+article h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+article p {
+    margin-bottom: 30px;
+}
+
+.imgleft {
+    float: left;
+    margin: 0 30px 20px 0px;
+}
+
+@media screen and (max-width: 950px) {
+
+    .subscribe input[type = 'text'], .subscribe input[type = 'email'] {
+        width: 260px;
+
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .subscribe input[type = 'text'], .subscribe input[type = 'email'] {
+        width: 320px;
+        display: block;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 10px;
+
+    }
+
+    header{
+        padding: 30px 20px;
+    }
+
+    h
+}
